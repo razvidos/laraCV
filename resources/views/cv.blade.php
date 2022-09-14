@@ -283,10 +283,11 @@ $works_info = [
                     @endforeach
 
                     @if(array_key_exists('achievements', $work_info))
+                        <b>Achievements</b>
                         <p>{{ $work_info['achievements'] }}</p>
                     @endif
                 @endforeach
-                <h5 class="chapter">Additional information:</h5>
+                <h5 class="chapter">ADDITIONAL INFORMATION:</h5>
                 <p>{{ $user_info['ADDITIONAL INFORMATION']}}</p>
 
             </div>
